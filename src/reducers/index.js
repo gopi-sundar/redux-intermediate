@@ -3,7 +3,7 @@ import WeatherReducer from '../reducers/reducer_weather';
 
 const rootReducer = combineReducers({
   state: (state = {}) => state,
-  weatherReducer:WeatherReducer
+  weather:WeatherReducer
 });
 
 export default rootReducer;
